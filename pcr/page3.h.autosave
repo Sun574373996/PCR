@@ -1,0 +1,27 @@
+#ifndef WIDGET3_H
+#define WIDGET3_H
+
+#include <QWidget>
+#include <QPushButton>
+#include <QLabel>
+#include <QPixmap>
+#include <QPainter>
+#include <QButtonGroup>
+#include "common.h"
+#include "popups.h"
+#include "button.h"
+class Page3 : public Widget
+{
+    Q_OBJECT
+public:
+    explicit Page3(QWidget *parent = 0);
+
+signals:
+
+public slots:
+
+protected:
+    void paintEvent(QPaintEvent *event);
+};
+
+#endif // WIDGET2_H
